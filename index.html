@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Is Meraj</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(15, 143, 85);
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(24, 7, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(148, 148, 241);
+            font-size: 1.08rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(255, 255, 255);
+            height: 2px;
+            margin: 26px 65px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px, 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .btn {
+            padding: 7px;
+            background: #18073e;
+            color: white;
+            border: 1px solid white;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 150%;
+            margin: 35px -90px;
+        }
+
+        .purple {
+            color: rgb(24, 4, 56);
+        }
+
+        .text-gray {
+            color: rgb(46, 41, 41);
+        }
+
+        #element {
+            color: rgb(24, 4, 56)
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 75vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 75vw;
+            height: 1px;
+            margin: 60px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 80px;
+            width: 1px;
+            background-color: white;
+            margin: 0 111px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -35px;
+            left: -12px;
+
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 45px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 45px;
+            width: 150px;
+            color: #161616;
+            font-size: 12px;
+
+        }
+
+        footer {
+            background-color: rgb(17, 12, 28);
+        }
+
+        .footer {
+            display: flex;
+            padding: 25px 130px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(87, 87, 87);
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Meraj's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, This is <span class="purple">Meraj</span>
+
+                <div>I am a Professional</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="m.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">My Club</span>
+            <h1>Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="chess.png" alt="">
+                    <div class="vertical-title">
+                        Chess Club of DIU (Jan 2022 onward)
+                    </div>
+                    <div class="vertical-desc">
+                        A very passionate chess player and a active member of the club
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="csc.png" alt="">
+                    <div class="vertical-title">
+                        Cyber Secutity Club (Jul 2022 onward)
+                    </div>
+                    <div class="vertical-desc">
+                        A Cyber Secutity enthusiast who loves to learn new things
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="drc.png" alt="">
+                    <div class="vertical-title">
+                        DIU Readers’ Club (Jul 2022 onward)
+                    </div>
+                    <div class="vertical-desc">
+                        A bibliophile who finds happiness by reading and sharing books
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="sbsf.png" alt="">
+                    <div class="vertical-title">
+                        Social Business Students' Forum (Jul 2022 onward)
+                    </div>
+                    <div class="vertical-desc">
+                        Trying to make the world a better palce and contribute to the society
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Meraj's Portfolio</h3>
+            </div>
+            <div class="footer-secpnd">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>FAQ</li>
+                    <li>Privacy Policy</li>
+                    <li>User Policy</li>
+                    <li>Cookies</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright © www.mrjportfolio.com | All Right Reserverd
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Java Developer', 'Problem Solver', 'Video Editor', 'Graphic Designer', 'Loser!'],
+            typeSpeed: 40,
+        });
+    </script>
+</body>
+
+</html>
